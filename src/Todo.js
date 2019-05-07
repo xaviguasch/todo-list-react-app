@@ -14,7 +14,8 @@ class Todo extends Component {
   render() {
     return (
       <div>
-        <p>{this.props.task}</p>
+        <li>{this.props.task}</li>
+        <button>Edit</button>
         <button onClick={this.handleClick}>X</button>
       </div>
     )
